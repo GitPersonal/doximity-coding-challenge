@@ -1,29 +1,29 @@
-main{
+.main-container{
     font-family: Arial, Helvetica, sans-serif;
 }
-main sup{
+.main-container sup{
     font-size: .5em;
 }
-main .img{
+.main-container .img{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-main .img img{
+.main-container .img img{
     max-width: 100%;
     margin: 0 auto;
 }
-main .title-color-bg{
+.main-container .title-color-bg{
     background-color: lightgray;
 }
-main .text-line-style {
+.main-container .text-line-style {
     text-decoration: underline;
 }
 
-main .margin-top {
+.main-container .margin-top {
     margin-top: 0;
 }
-main .margin-bottom {
+.main-container .margin-bottom {
     margin-bottom: 0;
 }
