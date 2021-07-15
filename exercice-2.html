@@ -1,40 +1,17 @@
  <!-- ****************** Find the errors in the html start ****************** -->
     <!-- <div style="border: 1px solid #000001; padding: 2px, margin-bottom: 5px;"><b>WARNING: RISK OF SERIOUS HARM OR DEATH WITH INTRAVENOUS ADMINISTRATION; SUBLOCADE RISK EVALUATION AND MITIGATION STRATEGY</b><br><b>•  Serious harm or death could result if administered intravenously. SUBLOCADE forms a solid mass upon contact with body fluids and may cause occlusion, local tissue damage, and thrombo-embolic events, including life threatening pulmonary emobli, if administered intravenously.</b></div><br><b>IMPORTANT SAFETY INFORMATION</b><br><br>Prescription use of this product is limited under the Drug Addiction Treatment Act.<br><br><b>CONTRAINDICATIONS</b><br><br>SUBLOCADE should not be administered to patients who have been shown to be hypersensitive to buprenorphine or any component of the ATRIGEL<sup>®<sup> delivery system<br><br><b>Please click here to full <a href="https://www.sublocade.com/Content/pdf/prescribing-information.pdf" target="_blank>Prescribing Information</a>, including BOXED WARNING</b> -->
 
-        <!-- inline styles not the best way to style.-->
-        <!-- strong tags should be used over b tag -->
+        <!-- inline styles missing ";" after 2px.-->
         <!-- use ul to list items for bullets -->
-        <!-- use head tag for the title message -->
-        <!-- some text isn't inside any tags -->
-        <!-- delivery system is superscriped -->
+        <!-- some copy isn't inside any tags so I wrapped them with a div-->
+        <!-- sup is missing "/" in closing tag of delivery system -->
         <!-- target is missing a " at the end -->
 <!-- ****************** Find the errors in the html end ****************** -->
 
 <!-- ****************************************************************************************** -->
 
     <!-- ****************** my version starts ****************** -->
-<style>
-       .border-content {
-            border: 1px solid #000001;
-            padding: 2px;
-            margin-bottom: 5px;
-        }
-    </style>
-    <section class="border-content">
-        <h2><strong>WARNING: RISK OF SERIOUS HARM OR DEATH WITH INTRAVENOUS ADMINISTRATION; SUBLOCADE RISK EVALUATION AND MITIGATION STRATEGY</strong></h2>
-    <ul>
-        <li><strong>Serious harm or death could result if administered intravenously. SUBLOCADE forms a solid mass upon contact with body fluids and may cause occlusion, local tissue damage, and thrombo-embolic events, including life threatening pulmonary emobli, if administered intravenously.</strong></li>
-    </ul>
-    </section>
-    <section>
-        <h2><strong>IMPORTANT SAFETY INFORMATION</strong></h2>
-        <p>Prescription use of this product is limited under the Drug Addiction Treatment Act.</p>
-    </section>
-    <section>
-        <h2><strong>CONTRAINDICATIONS</strong></h2>
-        <p>SUBLOCADE should not be administered to patients who have been shown to be hypersensitive to buprenorphine or any component of the ATRIGEL<sup>®</sup> delivery system</p>
-        <p>Please click here to full <a href="https://www.sublocade.com/Content/pdf/prescribing-information.pdf" target="_blank">Prescribing Information</a> including BOXED WARNING</p>
-    </section>
-
-
-   
+    <div style="border: 1px solid #000001; padding: 2px; margin-bottom: 5px;"><b>WARNING: RISK OF SERIOUS HARM OR DEATH WITH INTRAVENOUS ADMINISTRATION; SUBLOCADE RISK EVALUATION AND MITIGATION STRATEGY</b><br><ul><li>Serious harm or death could result if administered intravenously. SUBLOCADE forms a solid mass upon contact with body fluids and may cause occlusion, local tissue damage, and thrombo-embolic events, including life threatening pulmonary emobli, if administered intravenously.</li></ul></div>
+    <div><br><b>IMPORTANT SAFETY INFORMATION</b><br><br>
+        Prescription use of this product is limited under the Drug Addiction Treatment Act.<br><br><b>CONTRAINDICATIONS</b><br><br>SUBLOCADE should not be administered to patients who have been shown to be hypersensitive to buprenorphine or any component of the ATRIGEL<sup>®</sup> delivery system<br><br><b>Please click here to full <a href="https://www.sublocade.com/Content/pdf/prescribing-information.pdf" target="_blank">Prescribing Information</a>, including BOXED WARNING</b>
+    </div>
